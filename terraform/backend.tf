@@ -1,6 +1,6 @@
 # terraform {
 #   backend "s3" {
-#     bucket         = "pbl-test-18"
+#     bucket         = "vic-new-terraform-bucket"
 #     key            = "global/s3/terraform.tfstate"
 #     region         = "us-east-1"
 #     dynamodb_table = "terraform-locks"
@@ -13,7 +13,7 @@ terraform {
     organization = "pisitis"
 
     workspaces {
-      name = "PBL-19"
+      name = "Project-19-Packer"
     }
   }
 }
