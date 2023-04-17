@@ -31,7 +31,7 @@ resource "aws_route53_record" "project_19_record" {
 }
 
 # validate the certificate through DNS method
-resource "aws_acm_certificate_validation" "project_19_validation" {
+resource "aws_acm_certificate_validation" "vic" {
   certificate_arn         = aws_acm_certificate.project_19_cert.arn
   validation_record_fqdns = [for record in aws_route53_record.project_19_record : record.fqdn]
 }
