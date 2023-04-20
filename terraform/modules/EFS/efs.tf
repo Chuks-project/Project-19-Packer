@@ -9,7 +9,7 @@ resource "aws_kms_key" "vic-kms" {
     {
       "Sid": "Enable IAM User Permissions",
       "Effect": "Allow",
-      "Principal": { "AWS": "arn:aws:iam::025302118721:user/Devops" },
+      "Principal": { "AWS": "arn:aws:iam::025302118721:user/terraform" },
       "Action": "kms:*",
       "Resource": "*"
     }
