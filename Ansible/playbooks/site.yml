@@ -11,9 +11,9 @@
 - name: wordpress assignment
   import_playbook: ../static-assignments/wordpress.yml
 
-- hosts: tag_Name_vic_jenkins
-- name: jenkins assignment
-  import_playbook: ../static-assignments/jenkins.yml  
+# - hosts: tag_Name_vic_jenkins
+# - name: jenkins assignment
+#   import_playbook: ../static-assignments/jenkins.yml  
 
 - hosts: tag_Name_vic_artifactory
 - name: artifactory assignment
