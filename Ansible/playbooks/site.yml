@@ -19,10 +19,10 @@
 - name: artifactory assignment
   import_playbook: ../static-assignments/jfrog.yml
 
-- hosts: tag_Name_vic_sonarqube
-  user: ubuntu
-- name: sonarqube assignment
-  import_playbook: ../static-assignments/sonar.yml
+# - hosts: tag_Name_vic_sonarqube
+#   user: ubuntu
+# - name: sonarqube assignment
+#   import_playbook: ../static-assignments/sonar.yml
 
 
 
