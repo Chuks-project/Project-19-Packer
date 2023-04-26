@@ -53,7 +53,8 @@ resource "aws_autoscaling_group" "tooling-asg" {
   }
 }
 
-# attaching autoscaling group of  tooling application to internal loadbalancer
+
+# # # attaching autoscaling group of  tooling application to internal loadbalancer
 resource "aws_autoscaling_attachment" "asg_attachment_tooling" {
   autoscaling_group_name = aws_autoscaling_group.tooling-asg.id
   alb_target_group_arn   = var.tooling-alb-tgt
