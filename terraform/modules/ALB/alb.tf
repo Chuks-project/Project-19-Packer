@@ -148,21 +148,12 @@ resource "aws_lb_listener_rule" "tooling-listener" {
     target_group_arn = aws_lb_target_group.tooling-tgt.arn
   }
 
-<<<<<<< HEAD
-#   condition {
-#     host_header {
-#       values = ["vic-chuks-project.click"]
-#     }
-#   }
-# }
-=======
   condition {
     host_header {
       values = ["vic-chuks-project.click"]
     }
   }
 }
->>>>>>> 3159434d3a3b3d2ec632ac4e864440fe7ad1978d
 
 
 
