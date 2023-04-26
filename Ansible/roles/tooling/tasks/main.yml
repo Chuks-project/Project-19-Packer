@@ -4,7 +4,7 @@
     path: /var/www
     src: fs-0cbb61532d66fae5b:/
     fstype: efs
-    opts: nosuid,noexec,defaults,tls,accesspoint=fsap-0fd1db22bbdb8e70f 
+    opts: nosuid,noexec,defaults,tls,accesspoint=fsap-0fd1db22bbdb8e70f  
     state: mounted
 
 - name: install httpd on the webserver
