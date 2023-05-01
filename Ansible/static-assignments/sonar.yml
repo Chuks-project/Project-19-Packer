@@ -1,5 +1,5 @@
 ---
-- hosts: tag_Name_vic-sonarqube
+- hosts: tag_Name_vic_sonarqube
   user: ubuntu
   become: true
   roles:
