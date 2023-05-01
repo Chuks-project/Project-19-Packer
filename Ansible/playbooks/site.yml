@@ -1,25 +1,25 @@
 ---
-- hosts: tag_Name_vic_nginx
+- hosts: tag_Name_vic-nginx
 - name: nginx assignment
   import_playbook: ../static-assignments/nginx.yml
 
-- hosts: tag_Name_vic_tooling 
+- hosts: tag_Name_vic-tooling 
 - name: tooling assignment
   import_playbook: ../static-assignments/tooling.yml
 
-- hosts: tag_Name_vic_wordpress
+- hosts: tag_Name_vic-wordpress
 - name: wordpress assignment
   import_playbook: ../static-assignments/wordpress.yml
 
-- hosts: tag_Name_vic_jenkins
+- hosts: tag_Name_vic-jenkins
 - name: jenkins assignment
   import_playbook: ../static-assignments/jenkins.yml  
 
-- hosts: tag_Name_vic_artifactory
+- hosts: tag_Name_vic-artifactory
 - name: artifactory assignment
   import_playbook: ../static-assignments/jfrog.yml
 
-- hosts: tag_Name_vic_sonarqube
+- hosts: tag_Name_vic-sonarqube
   user: ubuntu
 - name: sonarqube assignment
   import_playbook: ../static-assignments/sonar.yml

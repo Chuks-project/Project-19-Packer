@@ -1,5 +1,5 @@
 ---
-- hosts: tag_Name_vic_nginx
+- hosts: tag_Name_vic-nginx
   become: true
   roles:
     - nginx
