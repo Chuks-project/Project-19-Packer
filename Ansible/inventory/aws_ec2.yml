@@ -18,7 +18,7 @@ filters:
     - vic-wordpress
     - vic-sonarqube
     - vic-artifactory
-    - vic-Jenkins
+    - vic-jenkins
   instance-state-name : running
   
 hostnames:
