@@ -23,7 +23,6 @@
     repo: ppa:linuxuprising/java
 
 
-<<<<<<< HEAD
 # - name: install python3
 #   ansible.builtin.apt:
 #     name: 
@@ -34,17 +33,6 @@
 #     state: present
 #     update_cache: yes
     
-=======
-- name: install python3
-  ansible.builtin.apt:
-    name: 
-      - python3
-      - python3-pip
-      - python3-dev
-      - libpq-dev
-    state: present
-    update_cache: yes
->>>>>>> 10393a87a56896bd8e6f98841d26992ce7e5f985
 
 - name: Install setuptools
   pip:
