@@ -1,8 +1,8 @@
-cd- name: Clone the repository
+- name: Clone the repository
   ansible.builtin.git:
-   repo: https://github.com/Chuks-project/tooling.git
-   clone: yes
-   dest: /home/ec2-user/tooling
+    repo: https://github.com/Chuks-project/tooling.git
+    clone: yes
+    dest: /home/ec2-user/tooling
  
 - name: copy the html from tooling to /var/www/html
   ansible.builtin.copy:
