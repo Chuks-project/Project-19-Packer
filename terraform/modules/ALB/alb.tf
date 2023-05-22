@@ -137,7 +137,7 @@ resource "aws_lb_listener" "web-listener" {
   }
 }
 
-# listener rule for tooling target
+# # listener rule for tooling target
 
 resource "aws_lb_listener_rule" "tooling-listener" {
   listener_arn = aws_lb_listener.web-listener.arn
@@ -154,6 +154,15 @@ resource "aws_lb_listener_rule" "tooling-listener" {
     }
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 
